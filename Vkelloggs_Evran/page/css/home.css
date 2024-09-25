@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poetsen+One&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Epran*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    align-items: center;
+    background-color: #FFF500;
+    border-bottom: 2px #BF0000 solid;
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    p{
+        margin: 0;
+    }
+
+    .t p a{
+        color:#BF0000;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    .t img{
+        width: 10rem;
+        margin: 0;
+    }
+}
+.m ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.s input {
+    width: 11rem;
+    padding: 3px 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px rgb(133, 133, 133) solid;
+    border-radius: 8px;
+    text-align: end;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    /* padding: 20px 60px; */
+}
+
+.left{
+    width: 60%;
+    padding-left: 60px;
+
+    .title{
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        color:#BF0000;
+    }
+    h1{
+        font-size: 2.7rem;
+        font-weight: bolder;
+    }
+    p{
+        width: 75%;
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    button {
+        padding: 0.5rem 7rem;
+        border-radius: 2rem;
+        background-color: #070707;
+        color: aliceblue;
+        font-size: 1rem;
+    }
+}
+
+.right{
+    position: relative;
+    .poop{
+        width: 40rem;
+    }
+    .cereal {
+        position: absolute;
+        right: 90px;
+        top: 5rem;
+        width: 35rem;
+    }
+    .red-cereal{
+        position: absolute;
+        top: 42vh;
+        right: 6rem;
+        width: 15rem;
+    }
+    
+}
+/*umm*/
+
+.best{
+    padding: 20px 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title{
+        font-size: 3.2rem;
+        font-weight: bolder;
+    }
+}
+.best .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.best .card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-bottom: 1px rgb(155, 155, 155) solid;
+    border-radius: 20px;
+}
+.best .card p {
+    margin: 0;
+    color: #000;
+}
+.card-header img{
+    width: 22rem;
+    height: auto;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-body .tile{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card-body {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.r1 {
+    border-top: 1px rgb(182, 179, 179) solid;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        border-radius: 10px;
+        padding: 5px 2rem;
+        border: 1px rgb(136, 136, 136) solid;
+        background-color: transparent;
+    }
+    p{
+        text-decoration: line-through black;
+    }
+    span {
+        color: #000;
+    }
+}
+
+
+.story {
+    padding: 20px 60px;
+}
+.story {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 30px 60px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.story .title {
+    width: 20%;
+}
+.story .title p {
+    font-size: 4rem;
+    font-weight: 900;
+}
+.desc{
+    width: 70%;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.story p {
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 1200px) {
+    .s input {
+        width: 5rem;
+        padding: 3px 0;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px rgb(133, 133, 133) solid;
+        border-radius: 8px;
+        text-align: end;
+    } 
+    .story .title {
+        width: 30%;
+    }
+}
+@media (max-width: 1170px) {
+    .right{
+        position: relative;
+        .poop{
+            width: 40rem;
+            position: absolute;
+            right: 10000px;
+        }
+        .cereal {
+            position: absolute;
+            right: 9000px;
+            top: 5rem;
+            width: 35rem;
+        }
+        .red-cereal{
+            position: absolute;
+            top: 42vh;
+            right: 6000rem;
+            width: 15rem;
+        }
+        
+    }
+    .mid{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        .title{
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.5rem;
+            color:#BF0000;
+        }
+        h1{
+            font-size: 2.7rem;
+            font-weight: bolder;
+        }
+        p{
+            
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        button {
+            padding: 0.5rem 7rem;
+            border-radius: 2rem;
+            background-color: #070707;
+            color: aliceblue;
+            font-size: 1rem;
+        }
+    }
+    .story .title {
+        width: 30%;
+    }
+    .story{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
+
+  
+  

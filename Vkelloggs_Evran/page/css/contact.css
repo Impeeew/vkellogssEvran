@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poetsen+One&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    align-items: center;
+    background-color: #FFF500;
+    border-bottom: 2px #BF0000 solid;
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    p{
+        margin: 0;
+    }
+
+    .t p a{
+        color:#BF0000;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    .t img{
+        width: 10rem;
+        margin: 0;
+    }
+}
+.m ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.s input {
+    width: 11rem;
+    padding: 3px 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px rgb(133, 133, 133) solid;
+    border-radius: 8px;
+    text-align: end;
+}
+
+/*form*/
+.c{
+    padding: 30px 60px;
+}
+.c .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .desc{
+        font-size: 1.2rem;
+        font-weight: normal;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+}
+
+.left .r{
+    display: flex;
+    gap: 60px;
+}
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+form input,button, label, checkbox{
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px rgb(153, 153, 153) solid;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+form button {
+    margin: 25px 0;
+    width: 15rem;
+    background-color: #000;
+    color: #fafafa;
+    border-radius: 10px;
+}
+.auth label {
+    display: flex;
+    border: 1px gainsboro solid;
+}
+.mess textarea{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    .s input {
+        width: 5rem;
+        padding: 3px 0;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px rgb(133, 133, 133) solid;
+        border-radius: 8px;
+        text-align: end;
+    } 
+    .left{
+        padding: 20px;
+    }
+    .right{
+        padding: 20px;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

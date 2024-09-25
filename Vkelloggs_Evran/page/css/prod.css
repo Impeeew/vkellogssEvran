@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poetsen+One&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    align-items: center;
+    background-color: #FFF500;
+    border-bottom: 2px #BF0000 solid;
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    p{
+        margin: 0;
+    }
+
+    .t p a{
+        color:#BF0000;
+        font-family: "Dancing Script", cursive;
+        /* font-family: "BALLW___.TTF"; */
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    .t img{
+        width: 10rem;
+        margin: 0;
+    }
+}
+.m ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.s input {
+    width: 11rem;
+    padding: 3px 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px rgb(133, 133, 133) solid;
+    border-radius: 8px;
+    text-align: end;
+}
+
+/*product*/
+.body{
+    padding: 30px 0 30px 0;
+}
+.body .mid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 60px;
+}
+.body .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+    img{
+        width: 18rem;
+    }
+}
+.r1{
+    border-top: 1px rgb(177, 177, 177) solid;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 0;
+
+}
+.r1 button {
+    margin: 0;
+    padding: 0.5rem 1rem; 
+}
+
+.r1 button {
+    margin: 0;
+    padding: 0.8rem 1.5rem; 
+    background-color: #BF0000; 
+    color: #FFF500;  
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+.r1 button:hover {
+    background-color: #800000; 
+}
+
+.card {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card{
+    border: 1px rgb(180, 180, 180) solid;
+    width: 20rem;
+    height: 37rem;
+}   
+
+.card-body{
+    padding: 10px 30px;
+    
+}
+
+.card-footer {
+    padding: 10px 30px;
+}
+
+@media (max-width: 1200px) {
+    .s input {
+        width: 5rem;
+        padding: 3px 0;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px rgb(133, 133, 133) solid;
+        border-radius: 8px;
+        text-align: end;
+    } 
+    .story .title {
+        width: 30%;
+    }
+}
+
+.title-adult{
+    padding: 20px 60px;
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    
+    .desc {
+        font-size: 1rem;
+        color: #707070;
+        font-weight: normal;
+    }
+    a{
+        text-decoration: none;
+        color: #707070;        
+    }
+}
+.title-junior{
+    padding: 20px 60px;
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    
+    .desc {
+        font-size: 1rem;
+        color: #707070;
+        font-weight: normal;
+    }
+    a{
+        text-decoration: none;
+        color: #707070;        
+    }
+}
+
+a {
+    text-decoration: none; 
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
+  
+
+
+section#junior-cereals {
+    background-color: #FFF9E6; 
+}
+
+section#adult-cereals {
+    background-color: #E6F2FF; 
+}
+
+

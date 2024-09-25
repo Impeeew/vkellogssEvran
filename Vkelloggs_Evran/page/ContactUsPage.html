@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="contact">
+        <div class="top">
+            <div class="nav">
+                <div class="t">
+                    <p><a href="./HomePage.html">
+                        <img src="./../assets/title-removebg-preview.png" alt="">
+                    </a></p>
+                </div>
+                <div class="m">
+                    <ul>
+                        <li><a href="./ProductPage.html">Our Cereal</a></li>
+                        <li><a href="./RecipesPage.html">Recipes</a></li>
+                        <li><a href="./AboutUsPage.html">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="s">
+                    <input type="text" name="search" id="search" placeholder="Search Here">
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="c">
+                <div class="title">
+                    <p>We're here for you.</p>
+                    <p class="desc">
+                        please tell us your concern and VKellogg's will help You.
+                    </p>
+                </div>
+                <form action="" onsubmit="form()">
+                    <div class="form">
+                        <div class="left">
+                            <div class="r">
+                                <div class="fname">
+                                    <p>First Name *</p>
+                                    <input type="text" name="firsname" id="inputfirsname" class="form-control" required="required" placeholder="Your First Name">
+                                </div>                                                                
+                                <div class="uname">
+                                    <p>Last Name *</p>                                    
+                                    <input type="text" name="username" id="inputusername" class="form-control" value="" required="required" placeholder="Your Last Name">    
+                                </div>
+                            </div>
+                            <div class="email">
+                                <p>Email *</p>                                
+                                <input type="email" name="email" id="inputemail" class="form-control" value="" required="required" title="" placeholder="Your Email Address">             
+                            </div>
+                            <div class="pass">
+                                <p>Telephone Number *</p>                                                       
+                               <input type="tel" name="telpon" id="inputtelpon" class="form-control" value="" required="required" placeholder="Your Number">                               
+                            </div>                            
+                        </div>
+                        <div class="right">
+                            <div class="mess">
+                                <p>Message *</p>                            
+                                <textarea name="message" cols="50" rows="8" id="message"></textarea>
+                                <!-- <input type="text"  name="message" id="inputmessage" class="form-control" value="" required="required" pattern="" title="" placeholder="Any questions about any product or your order are welcome">                                 -->
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./../index.js"></script>
+</html>
